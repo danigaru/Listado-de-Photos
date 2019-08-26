@@ -4,7 +4,7 @@
 
 ### Se utilizó
   * React-native
-  * react-native-elements
+  * React-native-elements
   * Fetch
 
 ### Se realizó
