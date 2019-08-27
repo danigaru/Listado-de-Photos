@@ -11,3 +11,9 @@
   
 * Obtener y listar todas las fotos 
 * Obtener una foto y mostrarla
+
+### No olvides realizar
+
+```
+ npm install
+```
