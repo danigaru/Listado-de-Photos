@@ -4,10 +4,16 @@
 
 ### Se utilizó
   * React-native
-  * react-native-elements
+  * React-native-elements
   * Fetch
 
 ### Se realizó
   
 * Obtener y listar todas las fotos 
 * Obtener una foto y mostrarla
+
+### No olvides realizar
+
+```
+ npm install
+```
