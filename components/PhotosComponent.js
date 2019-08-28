@@ -3,11 +3,13 @@ import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { Card, Button, Image } from "react-native-elements";
 import Icon from "react-native-vector-icons/FontAwesome";
 
+// realizando destructuring a los props
 const PhotosComponent = ({ photo, goPhoto }) => {
   return (
     <View>
+      {/* Evento cuando el usaurio presione en cada resultado */}
       <TouchableOpacity
-        onPress={() => goPhoto(photo.id)}
+        onPress={() => goPhoto(photo.id)} // evento para visualizar una foto
       >
         <Card>
           <View style={styles.contenedor}>
@@ -29,7 +31,7 @@ const PhotosComponent = ({ photo, goPhoto }) => {
                   />
                 }
                 title="Ver más"
-                onPress={() => goPhoto( photo.id) }
+                onPress={() => goPhoto( photo.id) }  // evento para visualizar una foto
             />
           </View>
         </Card>

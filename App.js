@@ -4,6 +4,7 @@ import { StyleSheet, View } from 'react-native';
 import Photos from './screens/PhotosScreen';
 import Header from './components/HeaderComponent';
 
+// api a consumir
 const apiPhoto = "http://jsonplaceholder.typicode.com/photos"
 
 export default function App() {
